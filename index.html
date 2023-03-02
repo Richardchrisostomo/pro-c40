@@ -1,0 +1,47 @@
+<!DOCTYPE html><html lang="en"><head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/matter.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+  <script src="js/form.js"></script>
+  <script src="js/game.js"></script>
+  <script src="js/player.js"></script>
+  <!--Link game.js e player.js-->
+   
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+
+<!--Adicione configuração do banco de dados abaixo-->
+<!-- O SDK JS do Firebase principal é sempre necessário e deve ser listado primeiro -->
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+
+<!-- FAZER: Adicionar SDKs para produtos Firebase que você deseja usar
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+ // Configuração do Firebase do seu aplicativo da web
+ const firebaseConfig = {
+  apiKey: "AIzaSyB82CNmOYK-W5z878ucfJXNrIMm7hDJ5Y0",
+  authDomain: "apanhador-d7ff7.firebaseapp.com",
+  databaseURL: "https://apanhador-d7ff7-default-rtdb.firebaseio.com",
+  projectId: "apanhador-d7ff7",
+  storageBucket: "apanhador-d7ff7.appspot.com",
+  messagingSenderId: "710613583028",
+  appId: "1:710613583028:web:71141e673e7385e7a383e1"
+};
+  // Inicializar Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+  
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+</head>
+<body>
+  <script src="sketch.js"></script>
+ 
+
+
+</body></html>
